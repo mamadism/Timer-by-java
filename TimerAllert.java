@@ -1,14 +1,14 @@
 import java.util.*;
 import javax.swing.JOptionPane;
 
-public class Main extends javax.swing.JFrame {
+public class TimerAllert extends javax.swing.JFrame {
     
     Timer t;
     TimerTask tt;
     String state = "NotStarted";
     Date date = new Date();
     
-    public Main() {
+    public TimerAllert() {
         initComponents();
         
     }
